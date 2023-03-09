@@ -2,17 +2,18 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
-  DiReact,
-  DiNodejs,
   DiGit,
+  DiPhp,
+  DiLaravel,
+  DiMysql,
+  DiCodeigniter,
 } from "react-icons/di";
 import {
-  SiMaterialui,
-  SiGraphql,
-  SiSolidity,
-  SiRedux,
-  SiMongodb,
-  SiHtml5
+  SiHtml5,
+  SiPhp,
+  SiLaravel,
+  SiMysql,
+  SiCodeigniter,
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -24,32 +25,25 @@ const Techstack = () => {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiCodeigniter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <SiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
+        <SiMysql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
     </Row>
   );
-}
+};
 
 export default Techstack;

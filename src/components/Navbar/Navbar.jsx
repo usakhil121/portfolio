@@ -10,11 +10,10 @@ import {
   // AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineContacts
+  AiOutlineContacts,
 } from "react-icons/ai";
-import { GiSkills } from "react-icons/gi"
+import { GiSkills } from "react-icons/gi";
 import { CgFileDocument } from "react-icons/cg";
-
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
